@@ -834,23 +834,23 @@
     {
       id: 39,
       run_name: 'Lower Taos Box',
-      river_name: '',
-      state: [''],
-      difficulty: '',
+      river_name: 'Rio Grande',
+      state: ['NM'],
+      difficulty: ['III+', 'IV'],
       permit_by_lottery: ,
-      season: [],
+      season: ['Apr', 'May', 'Jun'],
       does_it_actually_run: '',
-      length_in_days: [],
-      length_in_miles: ,
+      length_in_days: [1],
+      length_in_miles: 16,
       put_in: '',
       take_out: '',
-      gauge: '',
+      gauge: 'https://waterdata.usgs.gov/monitoring-location/08276500/#parameterCode=00060&period=P7D',
       recommended_flows: '',
       img: '',
       img_credit: '',
       link_to_more_info: '',
       facts: [''],
-      wild_and_scenic:
+      wild_and_scenic: false
     },
     {
       id: 40,
@@ -999,6 +999,27 @@
       link_to_more_info: '',
       facts: [''],
       wild_and_scenic:
+    },
+    {
+      id: 47,
+      run_name: 'Race Course',
+      river_name: 'Rio Grande',
+      state: ['NM'],
+      difficulty: ['III-', 'III', 'IV-'],
+      permit_by_lottery: false,
+      season: ['Mar', 'Apr', 'May', 'Jun'],
+      does_it_actually_run: '',
+      length_in_days: [0.5, 1],
+      length_in_miles: 6,
+      put_in: '',
+      take_out: '',
+      gauge: 'https://waterdata.usgs.gov/monitoring-location/08276500/#parameterCode=00060&period=P7D',
+      recommended_flows: '',
+      img: '',
+      img_credit: '',
+      link_to_more_info: '',
+      facts: [''],
+      wild_and_scenic: false
     }
   ]
 }
