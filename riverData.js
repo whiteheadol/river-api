@@ -18,9 +18,9 @@
         minimum: '300 cfs',
         maximum: '8,000+ cfs'
       },
-      img: '',
-      img_credit: '',
-      link_to_more_info: '',
+      img: 'https://cacreeks.com/photos/salt16.jpg',
+      img_credit: 'https://cacreeks.com/salt.htm',
+      link_to_more_info: 'https://www.americanwhitewater.org/content/River/view/river-detail/123/main',
       facts: ['While there is no lottery system for the daily run, you will need to purchase a daily permit for each person through the White Mountain Apache Tribe.', 'There are a few sites along the river corridor that are off limits to non tribe members. Do you research, and respect this magical place.'],
       wild_and_scenic: false
     },
