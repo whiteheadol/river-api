@@ -283,7 +283,7 @@
       img_credit: 'https://www.oars.com/adventures/yampa-river-rafting/',
       link_to_more_info: 'https://www.nps.gov/dino/planyourvisit/boating-and-rafting.htm',
       facts: ['The difficulty rating can be a bit misleading. Most rapids are very mild with the exception of Warm Springs, which can get very exciting.'],
-      wild_and_scenic:
+      wild_and_scenic: false
     },
     {
       id: 13,
@@ -303,8 +303,8 @@
         minimum: '600 cfs',
         maximum: '2500 cfs'
       },
-      img: '',
-      img_credit: '',
+      img: 'http://arkansasrivertours.com/wp-content/uploads/2018/07/2-Day-Gunnison-Gorge-scaled.jpg',
+      img_credit: 'Arkansas River Tours',
       link_to_more_info: 'https://www.blm.gov/sites/blm.gov/files/River%20Map%20in%20PDF%20for%20web.pdf',
       facts: ['If you choose to rent mules to help with the gear carry in, contact J and R Outfitters.'],
       wild_and_scenic: false
@@ -322,15 +322,15 @@
       length_in_miles: 96,
       put_in: 'This run is unique in that you can put in on either the Green or Colorado River - you will boat through the confluence and into the Colorado regardless. Mineral Bottom is the Green put-in. Potash Launch is the Colorado put-in. Potash is considered logistically easier.',
       take_out: 'Dirty Devil is the most common take-out, although Hite Marina can be used when the lake is higher.',
-      gauge: '',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/09180500/#parameterCode=00060&period=P7D', 'https://waterdata.usgs.gov/monitoring-location/09315000/#parameterCode=00060&period=P7D'],
       recommended_flows: {
         minimum: '3500 cfs',
         maximum: 'Boaters will run Cataract at almost any level, but things will get very exciting above around 25,000 cfs'
       },
-      img: '',
-      img_credit: '',
+      img: 'https://mts-wp-uploads.s3.us-west-1.amazonaws.com/trips/trip_hero26_ct5_1400x613.jpg',
+      img_credit: 'MT Sobek',
       link_to_more_info: 'https://www.nps.gov/cany/planyourvisit/riverpermits.htm',
-      facts: ['Permits for Cat are first-come, first-served, and there is no daily launch limit. The logistics of this trip often deter boaters.', 'You will float through a lot of flat water on this trip, as all of the rapids are run in a 14 mile stretch.', 'The trip lengths vary so much as some groups choose to take a motor for the flat sections, and others choose to move more slowly.'],
+      facts: ['The best way to accurately find the flow, is to add the two gage cfs value together!', 'Permits for Cat are first-come, first-served, and there is no daily launch limit. The logistics of this trip often deter boaters.', 'You will float through a lot of flat water on this trip, as all of the rapids are run in a 14 mile stretch.', 'The trip lengths vary so much as some groups choose to take a motor for the flat sections, and others choose to move more slowly.'],
       wild_and_scenic: false
     },
     {
@@ -346,16 +346,16 @@
       length_in_miles: 84,
       put_in: 'Sand Wash',
       take_out: 'Swasey\'s Beach',
-      gauge: 'https://waterdata.usgs.gov/monitoring-location/09315000/#parameterCode=00060&period=P7D',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/09315000/#parameterCode=00060&period=P7D'],
       recommended_flows: {
         minumum: '1000 cfs',
         maximum: '25000 cfs'
       },
-      img: '',
-      img_credit: '',
+      img: 'http://cloudridge.org/seminars/2012/img/2012/1200/Grays-Deso-Green-River-3-High-Res.jpg',
+      img_credit: 'Cloud Ridge Naturalists',
       link_to_more_info: 'https://www.blm.gov/programs/recreation/passes-and-permits/lotteries/utah/desolationgray',
       facts: ['While the lottery permits are awarded for trips between May 1 and Sept. 30, it is possible to watch the gauge and boat outside of the lottery season. You will still need a permit, however they are first-come, first-served.'],
-      wild_and_scenic:
+      wild_and_scenic: false
     },
     {
       id: 16,
@@ -370,13 +370,13 @@
       length_in_miles: 101,
       put_in: 'Boundary Creek',
       take_out: 'Cache Bar',
-      gauge: 'https://waterdata.usgs.gov/monitoring-location/13309220/#parameterCode=00065&period=P7D',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/13309220/#parameterCode=00065&period=P7D'],
       recommended_flows: {
         minimum: '800 cfs',
-        maximum: ''
+        maximum: '12000 cfs'
       },
-      img: '',
-      img_credit: '',
+      img: 'https://i.ytimg.com/vi/gMbh_n-avvs/maxresdefault.jpg',
+      img_credit: 'Western River Expeditions',
       link_to_more_info: 'https://www.recreation.gov/permits/234622',
       facts: ['Flows are unregulated by any upstream dam, so although this run reliably boatable each year, the level is likely to be volatile.', 'The campsite reservation system for this river is unique (you register your intended sites with a ranger before launching), so you\'ll want to plan your sites and daily mileage in advance.'],
       wild_and_scenic: true
