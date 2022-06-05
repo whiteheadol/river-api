@@ -18,8 +18,8 @@
         minimum: '300 cfs',
         maximum: '8,000+ cfs'
       },
-      img: 'https://cacreeks.com/photos/salt16.jpg',
-      img_credit: 'https://cacreeks.com/salt.htm',
+      img: 'https://www.outdoorproject.com/sites/default/files/styles/hero_image_desktop_2x/public/features/dsc_1527-2_0.jpg?itok=bglE2LF7',
+      img_credit: 'https://www.outdoorproject.com/united-states/arizona/salt-river-daily-section',
       link_to_more_info: 'https://www.americanwhitewater.org/content/River/view/river-detail/123/main',
       facts: ['While there is no lottery system for the daily run, you will need to purchase a daily permit for each person through the White Mountain Apache Tribe.', 'There are a few sites along the river corridor that are off limits to non tribe members. Do you research, and respect this magical place.'],
       wild_and_scenic: false
@@ -42,9 +42,9 @@
         minimum: '350 cfs',
         maximum: '8000 cfs'
       },
-      img: '',
-      img_credit: '',
-      link_to_more_info: '',
+      img: 'https://cacreeks.com/photos/salt16.jpg',
+      img_credit: 'https://cacreeks.com/salt.htm',
+      link_to_more_info: 'https://www.americanwhitewater.org/content/River/view/river-detail/123/main',
       facts: ['There are a few sites along the river corridor that are off limits to non tribe members. Do you research, and respect this magical place.'],
       wild_and_scenic: false
     },
@@ -90,10 +90,10 @@
         minimum: '300 cfs',
         maximum: '3000 cfs'
       },
-      img: '',
-      img_credit: '',
-      link_to_more_info: '',
-      facts: [''],
+      img: 'https://ataleoftwodirtbags.files.wordpress.com/2014/07/878869.jpeg',
+      img_credit: 'https://ataleoftwodirtbags.wordpress.com/paddling-log/',
+      link_to_more_info: 'https://www.americanwhitewater.org/content/River/view/river-detail/356/main',
+      facts: ['Much of this run is surrounded by private property - pay attention to signs.'],
       wild_and_scenic: false
     },
     {
@@ -106,7 +106,7 @@
       season: ['May', 'Jun', 'Jul', 'Aug', 'Sept'],
       does_it_actually_run: 'This section reliably runs each summer due to the Voluntary Flow Management Program, although it usually drops to only the native flow around mid August. During some seasons, the native flow still makes for a fun trip, but during others this will mean very low water.',
       length_in_days: [0.5, 1],
-      length_in_miles: 10,
+      length_in_miles: 10.5,
       put_in: 'Parkdale River Access',
       take_out: 'Centennial Park (Canon City Whitewater Park)',
       gauge: 'https://waterdata.usgs.gov/co/nwis/uv?site_no=07094500',
@@ -114,10 +114,10 @@
         minimum: '300 cfs',
         maximum: '6000 cfs'
       },
-      img: '',
-      img_credit: '',
-      link_to_more_info: '',
-      facts: ['Insert bridge fact here'],
+      img: 'https://cdn.5280.com/2017/04/royal-gorge-arkansas_yellow-feather-photography.jpg',
+      img_credit: 'https://www.5280.com/2018/06/the-best-paddling-adventures-in-the-west/',
+      link_to_more_info: 'https://www.americanwhitewater.org/content/River/view/river-detail/360/main',
+      facts: ['Keep an eye out for the scenic train and its passengers.'],
       wild_and_scenic: false
     },
     {
@@ -159,9 +159,9 @@
         minimum: '800 cfs',
         maximum: '7000 cfs'
       },
-      img: '',
-      img_credit: '',
-      link_to_more_info: '',
+      img: 'https://mild2wildrafting.com/wp-content/uploads/2020/10/IMG_1790-scaled.jpg',
+      img_credit: 'https://mild2wildrafting.com/video/gates-of-lodore-rafting-raft-dinosaur-national-monument/',
+      link_to_more_info: 'https://www.whitewaterguidebook.com/utah/the-gates-of-lodore/',
       facts: ['Rainbow Park to Split Mountain can be run as a day trip.'],
       wild_and_scenic: false
     },
@@ -183,8 +183,8 @@
         minimum: '200 cfs',
         maximum: '4000 cfs'
       },
-      img: '',
-      img_credit: '',
+      img: 'https://farflung.com/wp-content/uploads/2021/04/ChamariverNewMexico-GettyImages-147454242-59d2815d845b340011047ca5.jpg',
+      img_credit: 'https://farflung.com/rio-chama/',
       link_to_more_info: 'https://www.recreation.gov/permits/621743',
       facts: ['Boaters can run the Chama outside of the permitted season (before Apr. 15, after Sept. 15) by self-registering for a permit. Flows are highly variable given the environment.'],
       wild_and_scenic: true
