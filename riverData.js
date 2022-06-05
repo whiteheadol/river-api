@@ -196,22 +196,22 @@
       state: ['OR'],
       difficulty: ['II', 'III'],
       permit_by_lottery: false,
-      season: [],
+      season: ['Apr', 'May', 'Jun', 'Jul'],
       does_it_actually_run: 'Yes',
       length_in_days: [2, 3],
       length_in_miles: 44,
-      put_in: 'River left just upstream of Clamas Creek',
+      put_in: 'River left just upstream of Camas Creek',
       take_out: 'Monument',
-      gauge: '',
+      gauge: 'https://waterdata.usgs.gov/monitoring-location/14046000/#parameterCode=00060&period=P7D',
       recommended_flows: {
         minimum: '800 cfs',
         maximum: '10,000 cfs'
       },
-      img: '',
-      img_credit: '',
-      link_to_more_info: '',
-      facts: [''],
-      wild_and_scenic:
+      img: 'https://www.fs.usda.gov/Internet/FSE_MEDIA/stelprdb5275424.gif',
+      img_credit: 'https://www.fs.usda.gov/detail/umatilla/specialplaces/?cid=stelprdb5275392',
+      link_to_more_info: 'https://www.americanwhitewater.org/content/River/view/river-detail/1519/main',
+      facts: ['Only the upper stretch of the John Day River is technically classified as wild and scenic.'],
+      wild_and_scenic: true
     },
     {
       id: 10,
@@ -224,16 +224,16 @@
       does_it_actually_run: 'Yes!',
       length_in_days: [1, 2],
       length_in_miles: 17,
-      put_in: '',
+      put_in: 'Westwater Ranger Station',
       take_out: 'Cisco',
       gauge: 'https://waterdata.usgs.gov/monitoring-location/09163500/#parameterCode=00060&period=P7D',
       recommended_flows: {
         minimum: '1000 cfs',
         maximum: '30000 cfs'
       },
-      img: '',
-      img_credit: '',
-      link_to_more_info: '',
+      img: 'https://www.blm.gov/sites/blm.gov/files/styles/og_image/public/UT%20WestwaterWSA_%282%29_PCJenniferJones.jpg?h=f97871b5&itok=5NpGT0WH',
+      img_credit: 'https://www.blm.gov/programs/national-conservation-lands/utah/westwater-canyon-wsa',
+      link_to_more_info: 'https://www.blm.gov/programs/national-conservation-lands/utah/westwater-canyon-wsa',
       facts: ['Permits are first-come, first-served and available two months in advance.', 'This section is usually runnable year-round, the limiting factor will likely be your cold tolerance. Check for ice before attempting a winter trip, though.', 'You can easily run this stretch in a day, but many boaters enjoy spending a night camping.'],
       wild_and_scenic: false
     },
@@ -255,9 +255,9 @@
         minimum: '1000 cfs',
         maximum: '25000 cfs'
       },
-      img: '',
-      img_credit: '',
-      link_to_more_info: '',
+      img: 'https://adventr.co/wp-content/uploads/2014/12/7877587736_d89b71d0ca_b.jpg',
+      img_credit: 'https://adventr.co/2012/08/ruby-horsethief-canyons/',
+      link_to_more_info: 'https://www.recreation.gov/permits/74466',
       facts: [''],
       wild_and_scenic: false
     },
@@ -277,10 +277,10 @@
       gauge: 'https://waterdata.usgs.gov/monitoring-location/09260050/#parameterCode=00060&period=P7D',
       recommended_flows: {
         minimum: '800 cfs',
-        maximum: ''
+        maximum: '25,000 cfs'
       },
-      img: '',
-      img_credit: '',
+      img: 'https://cdn.5280.com/2017/04/yampa-river_courtesy-of-o.a.r.s.jpg',
+      img_credit: 'https://www.oars.com/adventures/yampa-river-rafting/',
       link_to_more_info: 'https://www.nps.gov/dino/planyourvisit/boating-and-rafting.htm',
       facts: ['The difficulty rating can be a bit misleading. Most rapids are very mild with the exception of Warm Springs, which can get very exciting.'],
       wild_and_scenic:
