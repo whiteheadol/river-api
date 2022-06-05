@@ -394,13 +394,13 @@
       length_in_miles: 78,
       put_in: 'Corn Creek',
       take_out: 'Carey Creek',
-      gauge: 'https://waterdata.usgs.gov/monitoring-location/13317000/#parameterCode=00060&period=P7D',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/13317000/#parameterCode=00060&period=P7D'],
       recommended_flows: {
         minimum: '2000 cfs',
         maximum: '30000 cfs'
       },
-      img: '',
-      img_credit: '',
+      img: 'https://wetplanetwhitewater.com/wp-content/uploads/2019/06/leslie-main-salmon-blog-post-hero.jpg',
+      img_credit: 'Wet Planet Whitewater',
       link_to_more_info: 'https://www.recreation.gov/permits/234622',
       facts: ['It\'s very possible to run this stretch outside of the lottery season, when permits are simply first-come, first-served. Check the water level and be prepared for some cold weather.', 'This stretch has the most incredible hot springs you\'ll find on a river trip - don\'t skip it!'],
       wild_and_scenic: true
@@ -418,39 +418,39 @@
       length_in_miles: 72,
       put_in: 'Hammer Creek',
       take_out: 'Heller Bar, 20 miles after the confluence with the Snake River',
-      gauge: 'https://waterdata.usgs.gov/monitoring-location/13317000/#parameterCode=00060&period=P7D',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/13317000/#parameterCode=00060&period=P7D'],
       recommended_flows: {
         minimum: '3000 cfs',
         maximum: '20000 cfs'
       },
-      img: '',
-      img_credit: '',
+      img: 'https://d2jr8zxei7kmbc.cloudfront.net/img/sidebar/lower-salmon-river-rafting-camp.jpg',
+      img_credit: 'Western River Expeditions',
       link_to_more_info: 'https://www.blm.gov/sites/blm.gov/files/documents/files/Media-Center_Public-Room_Idaho_Lower-Salmon-river_BoaterGuide2018.pdf',
       facts: ['With no lottery system, permits for this stretch are first-come, first-served.', 'The Lower Salmon technically encompasses the 112 miles of river below Vinegar Creek, this is just the most commonly run stretch.', 'It\'s possible to run Hammer Creek to Pine Creek/Pine Bar Launch ten miles downstream as a day trip.'],
-      wild_and_scenic:
+      wild_and_scenic: true
     },
     {
       id: 19,
       run_name: 'Grand Canyon (The Grand)',
       river_name: 'Colorado River',
       state: ['AZ'],
-      difficulty: ['III', 'III+'],
+      difficulty: ['III', 'IV'],
       permit_by_lottery: true,
       season: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
       does_it_actually_run: 'Of course!',
       length_in_days: [16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
       length_in_miles: 280,
       put_in: 'Lee\'s Ferry',
-      take_out: 'Pearce Ramp is the most popular take-out, although you can cut your trip short by taking out at Diamond as well.',
-      gauge: '',
+      take_out: 'Pearce and Diamond are the only take-out options, but which to use will be dictated by your trip logistics.',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/09380000/#parameterCode=00060&period=P7D'],
       recommended_flows: {
         minimum: 'Regulated by a strict release schedule, it is always runnable',
         maximum: 'Regulated by a strict release schedule, it is always runnable'
       },
-      img: '',
-      img_credit: '',
-      link_to_more_info: '',
-      facts: [''],
+      img: 'https://mtsobek.imgix.net/2018/11/canyon-rafting-2.jpg?auto=compress&fm=pjpg&ixlib=php-3.3.1?w=580&h=580&fit=crop',
+      img_credit: 'MT Sobek',
+      link_to_more_info: 'https://www.nps.gov/grca/planyourvisit/whitewater-rafting.htm',
+      facts: ['Pulling a permit for The Grand is incredibly difficult, and many people try for years before ever getting one (if ever).', 'While the whitewater is wonderful, the length of this trip is a huge appeal to many, along with the uniquely beautiful side hike opportunities.'],
       wild_and_scenic: false
     },
     {
@@ -486,13 +486,13 @@
       length_in_miles: 35,
       put_in: 'Grave Creek',
       take_out: 'Foster Bar',
-      gauge: 'https://waterdata.usgs.gov/monitoring-location/14372300/#parameterCode=00060&period=P7D',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/14372300/#parameterCode=00060&period=P7D'],
       recommended_flows: {
         minimum: '800 cfs',
         maximum: '32000 cfs'
       },
-      img: '',
-      img_credit: '',
+      img: 'https://1aakpxvai132p26ca4frgcap-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/Rogue-River-Rafting-Oregon.jpg',
+      img_credit: 'Whitewater Guide Book',
       link_to_more_info: 'https://www.blm.gov/programs/recreation/permits-and-passes/lotteries-and-permit-systems/oregon-washington/rogue-river',
       facts: ['The permit season lasts from May 15th to Oct 15th, but there is often enough water to boat most of the year. Off season permits are available at the Smullin Visitor Center.'],
       wild_and_scenic: true
@@ -570,15 +570,15 @@
       length_in_miles: 32,
       put_in: 'Hell\'s Canyon Boat Ramp',
       take_out: 'Pittsburg Landing',
-      gauge: 'https://waterdata.usgs.gov/monitoring-location/13290450/#parameterCode=00060&timeSeriesId=47719&period=P7D',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/13290450/#parameterCode=00060&timeSeriesId=47719&period=P7D'],
       recommended_flows: {
         minimum: '6500 cfs',
         maximum: '80000 cfs'
       },
-      img: '',
-      img_credit: '',
-      link_to_more_info: '',
-      facts: [''],
+      img: 'https://blog-assets.thedyrt.com/uploads/2020/01/shutterstock_518518474-3.jpg',
+      img_credit: 'The Dyrt',
+      link_to_more_info: 'https://www.americanwhitewater.org/content/River/view/river-detail/633/main',
+      facts: ['Boating this stretch will take you through the deepest river canyon in the United States.'],
       wild_and_scenic: true
     },
     {
@@ -594,13 +594,13 @@
       length_in_miles: 47,
       put_in: 'Paradise Boat Ramp',
       take_out: 'Selway Falls',
-      gauge: 'https://waterdata.usgs.gov/monitoring-location/13336500/#parameterCode=00060&timeSeriesId=47830&period=P7D',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/13336500/#parameterCode=00060&timeSeriesId=47830&period=P7D'],
       recommended_flows: {
         minimum: '700 cfs',
         maximum: '35000 cfs'
       },
-      img: '',
-      img_credit: '',
+      img: 'https://www.americanwhitewater.org//photos/archive/medium/879559.jpg',
+      img_credit: 'American Whitewater',
       link_to_more_info: 'https://www.recreation.gov/permits/234624',
       facts: ['This permit is often considered one of the hardest in the country to get (vying with the Grand Canyon).'],
       wild_and_scenic: true
@@ -618,13 +618,13 @@
       length_in_miles: 14,
       put_in: 'Hittle Bottom',
       take_out: 'Take Out - an obvious spot with a simple name on highway 191',
-      gauge: 'https://waterdata.usgs.gov/monitoring-location/09180500/#parameterCode=00060&period=P7D',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/09180500/#parameterCode=00060&period=P7D'],
       recommended_flows: {
         minimum: '1500 cfs',
         maximum: '20000 cfs'
       },
-      img: '',
-      img_credit: '',
+      img: 'https://static.rootsrated.com/image/upload/s--pQ5u7yaT--/t_rr_large_natural/obwgivvufmsa3gyhbrof.jpg',
+      img_credit: 'Roots Rated',
       link_to_more_info: '',
       facts: ['Posisbly the most popular section of the entire Colorado River, be prepared to share with others.'],
       wild_and_scenic: false
@@ -642,16 +642,16 @@
       length_in_miles: 8,
       put_in: 'West Table',
       take_out: 'Sheep Gulch',
-      gauge: 'https://waterdata.usgs.gov/monitoring-location/13022500/#parameterCode=00060&period=P7D',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/13022500/#parameterCode=00060&period=P7D'],
       recommended_flows: {
         minimum: '1200 cfs',
         maximum: '18000 cfs'
       },
-      img: '',
-      img_credit: '',
-      link_to_more_info: '',
+      img: 'https://www.americanwhitewater.org//photos/archive/888736.jpg',
+      img_credit: 'American Whitewater',
+      link_to_more_info: 'https://www.americanwhitewater.org/content/River/view/river-detail/2472/main',
       facts: ['This is a popular commercial stretch - expect company!'],
-      wild_and_scenic:
+      wild_and_scenic: true
     },
     {
       id: 29,
@@ -666,14 +666,14 @@
       length_in_miles: 7,
       put_in: 'Railroad Bridge',
       take_out: 'Buena Vista Play Park',
-      gauge: 'https://waterdata.usgs.gov/monitoring-location/07087050/#parameterCode=00060&period=P7D',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/07087050/#parameterCode=00060&period=P7D'],
       recommended_flows: {
         minimum: '400 cfs',
         maximum: '3000 cfs'
       },
-      img: '',
-      img_credit: '',
-      link_to_more_info: '',
+      img: 'https://www.americanwhitewater.org//photos/archive/medium/7662.jpg',
+      img_credit: 'American Whitewater',
+      link_to_more_info: 'https://www.americanwhitewater.org/content/River/view/river-detail/357/main',
       facts: ['Frog Rock is a well marked river hazard - stay right!'],
       wild_and_scenic: false
     },
@@ -690,16 +690,16 @@
       length_in_miles: 57,
       put_in: 'Mexican Hat is the most populat put-in, although boaters can put in at Sand Island 27 miles upstream for a longer trip.',
       take_out: 'Clay Hills',
-      gauge: 'https://waterdata.usgs.gov/monitoring-location/09379500/#parameterCode=00060&period=P7D',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/09379500/#parameterCode=00060&period=P7D'],
       recommended_flows: {
         minimum: '500 cfs',
         maximum: '8000 cfs'
       },
-      img: '',
-      img_credit: '',
-      link_to_more_info: '',
+      img: 'https://www.westernriver.com/blog/wp-content/uploads/2015/04/5437590e5996d7ec28f9ba038f7cbe09_w480.jpeg',
+      img_credit: 'Western River Expeditions',
+      link_to_more_info: 'https://www.bikeraft.com/insiders-guide-to-floating-the-san-juan-river-in-utah/',
       facts: [''],
-      wild_and_scenic:
+      wild_and_scenic: false
     },
     {
       id: 31,
@@ -756,16 +756,16 @@
       length_in_miles: 65,
       put_in: 'Rome',
       take_out: 'You can take out at Birch Creek or Leslie Gulch. Taking out at Leslie Gulch will mean running quite a bit of flat water, however the Birch Creek is 4WD access only and unsuitable for trailers. This mileage is calculated from Rome to Leslie.',
-      gauge: 'https://waterdata.usgs.gov/monitoring-location/13181000/#parameterCode=00060&period=P7D',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/13181000/#parameterCode=00060&period=P7D'],
       recommended_flows: {
         minimum: '700 cfs',
         maximum: '9000 cfs'
       },
-      img: '',
-      img_credit: '',
-      link_to_more_info: '',
+      img: 'https://www.orangetorpedo.com/storage/app/media/.resized/d67/2B3F53A4-B3DE-45E3-998C-B250649AE5EC-d67aa035770728145f55656f59e02dae.jpeg',
+      img_credit: 'Orange Torpedo Trips',
+      link_to_more_info: 'https://www.whitewaterguidebook.com/oregon/owyhee-river/',
       facts: ['Permits are self-issued through the BLM website.'],
-      wild_and_scenic:
+      wild_and_scenic: true
     },
     {
       id: 34,
@@ -780,16 +780,16 @@
       length_in_miles: 36,
       put_in: 'Three Forks',
       take_out: 'Rome',
-      gauge: 'https://waterdata.usgs.gov/monitoring-location/13181000/#parameterCode=00060&period=P7D',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/13181000/#parameterCode=00060&period=P7D'],
       recommended_flows: {
         minimum: '1000 cfs',
         maximum: '3000 cfs'
       },
-      img: '',
-      img_credit: '',
-      link_to_more_info: '',
+      img: 'https://www.whitewaterguidebook.com/wp-content/uploads/2014/09/Middle-Owyhee-River1.jpg',
+      img_credit: 'Whitewater Guidebook',
+      link_to_more_info: 'https://www.whitewaterguidebook.com/oregon/middle-owyhee-river/',
       facts: ['There is one major rapid (Widowmaker, class V) that is almost always portaged. It\'s difficulty is not taken into account for this section\'s rating because of this.'],
-      wild_and_scenic:
+      wild_and_scenic: true
     },
     {
       id: 35,
