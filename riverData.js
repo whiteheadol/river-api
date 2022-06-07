@@ -1,5 +1,4 @@
-{
-  rivers: [
+const rivers = [
     {
       id: 1,
       run_name: 'Upper Salt Daily',
@@ -717,5 +716,4 @@
       facts: [''],
       wild_and_scenic:
     }
-  ]
-}
+  ];
