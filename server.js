@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 
 app.locals.rivers = [
     {
@@ -722,11 +723,13 @@ app.locals.rivers = [
   ];
 
 app.use(express.json());
+app.use(cors());
 
 app.set('port', process.env.PORT || 4000);
 app.locals.title = 'US Rivers';
 
 app.get('/', (request, response) => {
+  // res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
   response.send('Oh hey River API');
 });
 
