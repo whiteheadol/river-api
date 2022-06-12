@@ -707,18 +707,18 @@ app.locals.rivers = [
       difficulty: ['II', 'II+'],
       permit_by_lottery: 'true',
       season: ['Apr', 'May', 'Jun', 'Jul'],
-      does_it_actually_run: '',
-      length_in_days: [],
+      does_it_actually_run: 'Yes!',
+      length_in_days: ['4', '5'],
       length_in_miles: '59',
       put_in: 'Camp Baker',
       take_out: 'Eden\'s Bridge',
-      gauge: 'https://waterdata.usgs.gov/monitoring-location/06077200/#parameterCode=00060&period=P7D',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/06077200/#parameterCode=00060&period=P7D'],
       recommended_flows: {
         minimum: '200 cfs',
         maximum: '2000 cfs'
       },
-      img: '',
-      img_credit: '',
+      img: 'https://hipcamp-res.cloudinary.com/image/upload/c_fill,f_auto,g_auto,h_630,q_60,w_1200/v1558324386/campground-photos/s2lez9bvecryeqpudr9h.jpg',
+      img_credit: 'Hipcamp',
       link_to_more_info: '',
       facts: [''],
       wild_and_scenic: 'false'
