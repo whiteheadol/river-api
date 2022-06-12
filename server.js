@@ -6,8 +6,8 @@ app.locals.rivers = [
     {
       id: '1',
       run_name: 'Upper Salt Daily',
-      river_name: 'Salt',
-      state: 'AZ',
+      river_name: ['Salt River'],
+      state: ['AZ'],
       difficulty: ['III', 'IV'],
       permit_by_lottery: 'false',
       season: ['Feb', 'Mar', 'Apr', 'May'],
@@ -30,8 +30,8 @@ app.locals.rivers = [
     {
       id: '2',
       run_name: 'Upper Salt Wilderness',
-      river_name: 'Salt',
-      state: 'AZ',
+      river_name: ['Salt River'],
+      state: ['AZ'],
       difficulty: ['III', 'IV', 'IV+'],
       permit_by_lottery: 'true',
       season: ['Feb', 'Mar', 'Apr', 'May'],
@@ -54,8 +54,8 @@ app.locals.rivers = [
     {
       id: '3',
       run_name: 'Browns Canyon National Monument',
-      river_name: 'Arkansas',
-      state: 'CO',
+      river_name: ['Arkansas River'],
+      state: ['CO'],
       difficulty: ['III', 'IV'],
       permit_by_lottery: 'false',
       season: ['May', 'Jun', 'Jul', 'Aug', 'Sept'],
@@ -78,8 +78,8 @@ app.locals.rivers = [
     {
       id: '4',
       run_name: 'The Numbers',
-      river_name: 'Arkansas',
-      state: 'CO',
+      river_name: ['Arkansas River'],
+      state: ['CO'],
       difficulty: ['IV', 'IV+'],
       permit_by_lottery: 'false',
       season: ['May', 'Jun', 'Jul', 'Aug', 'Sept'],
@@ -102,8 +102,8 @@ app.locals.rivers = [
     {
       id: '5',
       run_name: 'The Royal Gorge',
-      river_name: 'Arkansas',
-      state: 'CO',
+      river_name: ['Arkansas River'],
+      state: ['CO'],
       difficulty: ['IV', 'IV+'],
       permit_by_lottery: 'false',
       season: ['May', 'Jun', 'Jul', 'Aug', 'Sept'],
@@ -126,7 +126,7 @@ app.locals.rivers = [
     {
       id: '6',
       run_name: 'Gates of Lodore & Echo Park',
-      river_name: 'Green River',
+      river_name: ['Green River'],
       state: ['CO', 'UT'],
       difficulty: ['III', 'III+'],
       permit_by_lottery: 'true',
@@ -150,7 +150,7 @@ app.locals.rivers = [
     {
       id: '7',
       run_name: 'Rio Chama Wilderness',
-      river_name: 'Rio Chama',
+      river_name: ['Rio Chama'],
       state: ['NM'],
       difficulty: ['II', 'III'],
       permit_by_lottery: 'true',
@@ -174,7 +174,7 @@ app.locals.rivers = [
     {
       id: '8',
       run_name: 'North Fork of the John Day',
-      river_name: 'John Day River',
+      river_name: ['John Day River'],
       state: ['OR'],
       difficulty: ['II', 'III'],
       permit_by_lottery: 'false',
@@ -198,7 +198,7 @@ app.locals.rivers = [
     {
       id: '9',
       run_name: 'Westwater',
-      river_name: 'Colorado River',
+      river_name: ['Colorado River'],
       state: ['UT'],
       difficulty: ['III', 'IV'],
       permit_by_lottery: 'false',
@@ -222,7 +222,7 @@ app.locals.rivers = [
     {
       id: '10',
       run_name: 'Ruby-Horsethief',
-      river_name: 'Colorado River',
+      river_name: ['Colorado River'],
       state: ['CO', 'UT'],
       difficulty: ['II'],
       permit_by_lottery: 'true',
@@ -246,7 +246,7 @@ app.locals.rivers = [
     {
       id: '11',
       run_name: 'Yampa',
-      river_name: 'Yampa River',
+      river_name: ['Yampa River'],
       state: ['CO', 'UT'],
       difficulty: ['III', 'IV'],
       permit_by_lottery: 'true',
@@ -270,7 +270,7 @@ app.locals.rivers = [
     {
       id: '12',
       run_name: 'Gunnison Gorge',
-      river_name: 'Gunnison River',
+      river_name: ['Gunnison River'],
       state: ['CO'],
       difficulty: ['III', 'III+'],
       permit_by_lottery: 'false',
@@ -294,7 +294,7 @@ app.locals.rivers = [
     {
       id: '13',
       run_name: 'Cataract Canyon',
-      river_name: 'Green/Colorado Rivers',
+      river_name: ['Green River', 'Colorado River'],
       state: ['UT'],
       difficulty: ['IV-'],
       permit_by_lottery: 'false',
@@ -318,7 +318,7 @@ app.locals.rivers = [
     {
       id: '14',
       run_name: 'Desolation Gray',
-      river_name: 'Green River',
+      river_name: ['Green River'],
       state: ['UT'],
       difficulty: ['II', 'III'],
       permit_by_lottery: 'true',
@@ -342,7 +342,7 @@ app.locals.rivers = [
     {
       id: '15',
       run_name: 'Middle Fork of the Salmon',
-      river_name: 'Middle Fork of the Salmon River',
+      river_name: ['Middle Fork of the Salmon River'],
       state: ['ID'],
       difficulty: ['III', 'IV', 'IV+'],
       permit_by_lottery: 'true',
@@ -366,7 +366,7 @@ app.locals.rivers = [
     {
       id: '16',
       run_name: 'Main Fork of the Salmon',
-      river_name: 'Salmon River',
+      river_name: ['Salmon River'],
       state: ['ID'],
       difficulty: ['III'],
       permit_by_lottery: 'true',
@@ -414,7 +414,7 @@ app.locals.rivers = [
     {
       id: '18',
       run_name: 'Grand Canyon (The Grand)',
-      river_name: 'Colorado River',
+      river_name: ['Colorado River'],
       state: ['AZ'],
       difficulty: ['III', 'IV'],
       permit_by_lottery: 'true',
@@ -438,7 +438,7 @@ app.locals.rivers = [
     {
       id: '19',
       run_name: 'The Rogue',
-      river_name: 'Rogue River',
+      river_name: ['Rogue River'],
       state: ['OR'],
       difficulty: ['III', 'IV'],
       permit_by_lottery: 'true',
@@ -462,7 +462,7 @@ app.locals.rivers = [
     {
       id: '20',
       run_name: 'Hells Canyon',
-      river_name: 'Snake River',
+      river_name: ['Snake River'],
       state: ['ID', 'OR'],
       difficulty: ['III', 'IV'],
       permit_by_lottery: 'true',
@@ -486,7 +486,7 @@ app.locals.rivers = [
     {
       id: '21',
       run_name: 'Selway',
-      river_name: 'Selway River',
+      river_name: ['Selway River'],
       state: ['ID'],
       difficulty: ['IV', 'IV+'],
       permit_by_lottery: 'true',
@@ -510,7 +510,7 @@ app.locals.rivers = [
     {
       id: '22',
       run_name: 'Moab Daily',
-      river_name: 'Colorado River',
+      river_name: ['Colorado River'],
       state: ['UT'],
       difficulty: ['II', 'III'],
       permit_by_lottery: 'false',
@@ -534,7 +534,7 @@ app.locals.rivers = [
     {
       id: '23',
       run_name: 'Alpine Canyon',
-      river_name: 'Snake River',
+      river_name: ['Snake River'],
       state: ['WY'],
       difficulty: ['III', 'III+'],
       permit_by_lottery: 'false',
@@ -558,7 +558,7 @@ app.locals.rivers = [
     {
       id: '24',
       run_name: 'The Fractions',
-      river_name: 'Arkansas',
+      river_name: ['Arkansas River'],
       state: ['CO'],
       difficulty: ['III', 'III+'],
       permit_by_lottery: 'false',
@@ -582,7 +582,7 @@ app.locals.rivers = [
     {
       id: '25',
       run_name: 'San Juan',
-      river_name: 'San Juan',
+      river_name: ['San Juan River'],
       state: ['UT'],
       difficulty: ['II', 'III'],
       permit_by_lottery: 'true',
@@ -606,7 +606,7 @@ app.locals.rivers = [
     {
       id: '26',
       run_name: 'Lower Owyhee',
-      river_name: 'Owyhee River',
+      river_name: ['Owyhee River'],
       state: ['OR'],
       difficulty: ['II', 'III'],
       permit_by_lottery: 'false',
@@ -630,7 +630,7 @@ app.locals.rivers = [
     {
       id: '27',
       run_name: 'Middle Owyhee',
-      river_name: 'Owyhee River',
+      river_name: ['Owyhee River'],
       state: ['OR'],
       difficulty: ['III', 'IV'],
       permit_by_lottery: 'false',
@@ -654,7 +654,7 @@ app.locals.rivers = [
     {
       id: '28',
       run_name: 'Deschutes, Warm Springs Section',
-      river_name: 'Deschutes',
+      river_name: ['Deschutes River'],
       state: ['OR'],
       difficulty: ['III', 'III+'],
       permit_by_lottery: 'false',
@@ -678,20 +678,23 @@ app.locals.rivers = [
     {
       id: '29',
       run_name: 'South Fork of the Salmon',
-      river_name: '',
-      state: [''],
-      difficulty: '',
+      river_name: ['Secesh River', 'Salmon River'],
+      state: ['ID'],
+      difficulty: ['IV'],
       permit_by_lottery: 'false',
-      season: [],
-      does_it_actually_run: '',
-      length_in_days: [],
-      length_in_miles: '6',
-      put_in: '',
-      take_out: '',
-      gauge: [''],
-      recommended_flows: '',
-      img: '',
-      img_credit: '',
+      season: ['May', 'Jun', 'Jul', 'Aug'],
+      does_it_actually_run: 'Yes!',
+      length_in_days: ['3', '4'],
+      length_in_miles: '59',
+      put_in: 'Confluence of the Sacesh River',
+      take_out: 'Vinegar Creek',
+      gauge: ['https://waterdata.usgs.gov/monitoring-location/13310700/'],
+      recommended_flows: {
+        minimum: '1 ft',
+        maximum: '7 ft'
+      },
+      img: 'https://www.whitewaterguidebook.com/wp-content/uploads/2014/07/Grouse-Creek-Rapid.jpg',
+      img_credit: 'Whitewater Guidebook',
       link_to_more_info: '',
       facts: [''],
       wild_and_scenic: 'false'
@@ -699,7 +702,7 @@ app.locals.rivers = [
     {
       id: '30',
       run_name: 'Smith',
-      river_name: 'Smith River',
+      river_name: ['Smith River'],
       state: ['MT'],
       difficulty: ['II', 'II+'],
       permit_by_lottery: 'true',
