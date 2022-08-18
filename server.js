@@ -742,7 +742,6 @@ app.get('/api/v1/rivers', (request, response) => {
 });
 
 app.get('/api/v1/rivers/:id', (request, response) => {
-  // Line below is just an example of destructuring
   const { id } = request.params;
   const river = app.locals.rivers.find(trip => trip.id === id);
   if (!river) {
